@@ -16,11 +16,14 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
 
   <title>Linus Aurin</title>
   <link rel="icon" type="image/png" href="images/logo.jpg">
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+ 
 
 
   <!-- bootstrap core css -->
@@ -41,6 +44,7 @@
   border-radius: 5px;
   padding: 5px 10px;
 }
+
 </style>
 </head>
 
@@ -104,10 +108,26 @@
                 <h6>Hello there,</h6>
                 <h1>I'm Linus Aurin</h1>
                 <p>
-                  I'm a Computer Science student at CVSU Bacoor Campus, passionate about Front-End Development and Software Engineering. I love building user-friendly web experiences and continuously exploring better ways to code and create.
+                  I'm a Computer Science student at CVSU Bacoor Campus, passionate about Front-End Development and Software Engineering. 
+                  I love building user-friendly web experiences and continuously exploring better ways to code and create.
                 </p>
+          
+            
+              <!-- Social Icons -->
+              <div class="social-icons my-5">
+                <a href="https://www.facebook.com/linus.aurin" target="_blank" class="mx-2">
+                  <i class="fab fa-facebook text-white fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com/line_dddddd/" target="_blank" class="mx-2">
+                  <i class="fab fa-instagram text-white fa-2x"></i>
+                </a>
+                <a href="https://github.com/linus2002" target="_blank" class="mx-2">
+                  <i class="fab fa-github text-white fa-2x"></i>
+                </a>
+              </div>
+          
                 <div class="btn-box">
-                  <a href="#" class="btn1">Contact Me</a>
+                  <a href="#" class="btn1" onclick="goToContact()">Contact Me</a>
                 </div>
               </div>
             </div>
@@ -369,6 +389,11 @@
         link.classList.add("active");
       }
     });
+
+    function goToContact() {
+    window.location.href = 'contact.html';
+  }
+
   </script>
   
 
