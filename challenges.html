@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Linus Aurin</title>
+  <link rel="icon" type="image/png" href="images/logo.jpg">
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+    /* Life Journey Section */
+    .life-journey-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; /* Align top */
+      gap: 20px; /* Space between left and right sections */
+      padding: 20px;
+      height: auto; /* Let the height adjust automatically */
+    }
+
+    .left-section {
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /* Increased gap between buttons */
+      align-items: center; /* Center buttons horizontally */
+      flex: 1;
+    }
+
+    .nav-link.active {  
+  background-color: #e4222c; /* optional: black background */
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+    .button-group {
+      display: flex;
+      gap: 30px; /* Increased gap between buttons horizontally */
+    }
+
+    .button-group button {
+      padding: 12px 24px;
+      background-color: #222;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button-group button:hover {
+      background-color: #e4222c;
+    }
+
+    .challenges-btn {
+      background-color: #0072ff;
+    }
+
+    .life-learnings-btn {
+      background-color: #ff9900;
+    }
+
+    /* Active button state */
+    .active-btn {
+      background-color: #e4222c !important; /* Red color for active button */
+    }
+
+    .right-section {
+      flex: 2;
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      margin-left: 10px;
+    }
+
+    .right-section h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .right-section p {
+      line-height: 1.6;
+    }
+
+    .journey-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensure image fits the container */
+      border-radius: 10px;
+      margin-top: 15px;
+      max-height: 300px; /* Adjust max height of image */
+    }
+
+    @media (max-width: 768px) {
+      .life-journey-container {
+        flex-direction: column;
+        gap: 10px; /* Smaller gap for mobile */
+        height: auto; /* Let the height adjust automatically on smaller screens */
+      }
+
+      .left-section,
+      .right-section {
+        width: 100%;
+      }
+
+      .button-group button {
+        padding: 10px 20px; /* Smaller buttons for mobile */
+      }
+
+      .right-section {
+        padding: 15px;
+      }
+
+      .journey-image {
+        max-height: 250px; /* Adjust the max height for mobile */
+      }
+    }
+
+    .footer_container {
+      color: #ffffff; /* This makes the text color white */
+      border-radius: 0 0 0 0;
+    }
+
+    .footer_section {
+      background-color: #242021; /* Keeps the dark footer background */
+      position: relative;
+      text-align: center;
+      color: #ffffff; /* Ensures text inside footer is white */
+    }
+
+    .footer_section p {
+      padding: 25px 0;
+      margin: 0;
+      color: #ffffff; /* Ensures paragraph text is white */
+    }
+
+    .footer_section p a {
+      color: #ffffff; /* Makes sure links in the footer are also white */
+    }
+
+  </style>
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+     <!-- header section strats -->
+     <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              <span>
+                Linus.
+              </span>
+            </a>
+  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  ">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="skills.html"> Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="challenges.html">Challenges</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="plans.html">Plans</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+              </ul>
+              <div class="quote_btn-container">
+                <a href="contact.html" class="quote_btn">
+                  Contact
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+  </div>
+
+  <!-- Life Journey Section -->
+  <div class="life-journey-container">
+    <!-- Left Section with buttons -->
+    <div class="left-section">
+      <div class="button-group">
+        <button class="challenges-btn" onclick="showContent('challenges', this)">Challenges</button>
+        <button class="life-learnings-btn" onclick="showContent('life-learnings', this)">Life Learnings</button>
+      </div>
+      <br><br>
+      <img src="images/challenge.jpg" alt="Life Journey" class="journey-image" />
+    </div>
+
+    <!-- Right Section with Image and Text -->
+    <div class="right-section">
+      <h2>My Life Journey</h2>
+      <div id="challenges" class="content active">
+        <p>One of the biggest challenges I've faced in life was choosing a course for college. Originally, I wanted to take up Information Technology, but when I applied, the slots were already full. I was disappointed at first because it wasn’t my first choice. As a result, I ended up taking Computer Science, which seemed like a good alternative but wasn’t what I initially planned.</p>
+    
+        <p>In the beginning, I struggled with the idea of studying something I didn’t originally choose. It was hard to adjust because the path ahead seemed different from what I imagined. However, over time, I began to appreciate the course, especially when I started diving into coding and designing. The more I explored these subjects, the more I realized that I actually enjoyed the challenge and the creativity involved in the work.</p>
+    
+        <p>Now, looking back, I see that taking Computer Science wasn't such a bad thing after all. It turned out to be a great fit for me, and I’ve learned so much along the way. The journey was not always easy, but it made me realize that sometimes, life works out in unexpected ways, and the challenges we face can lead us to discover new passions.</p>
+    </div>
+    
+
+      <div id="life-learnings" class="content" style="display:none;">
+            <p>One of the most important lessons I’ve learned in life is how to communicate and socialize with others. Growing up, I wasn’t always the best at expressing myself or connecting with people, but over time, I realized how important it is to listen and understand those around me. I’ve learned that being open to conversations and building relationships with others not only helps me grow as a person but also brings me joy and fulfillment. It’s not just about speaking but truly engaging and listening, which has made me feel more connected to the world.</p>
+        
+            <p>Another lesson I’ve embraced is the importance of focusing on what I do and being content with what I have. In a world that constantly pushes us to want more, I’ve found peace in learning to appreciate the things I already have. Whether it’s my family, my education, or the small successes along the way, I try to stay grounded and thankful. This mindset has helped me stay focused and motivated, while also helping me keep stress and dissatisfaction at bay.</p>
+        
+            <p>Lastly, I’ve realized that having God in my life has been a true source of strength, especially during the toughest times. Whenever I face challenges, it’s His guidance and presence that helps me push through. Trusting in His plan has allowed me to navigate life's obstacles with a sense of peace and assurance. Knowing that I’m never alone, no matter how difficult things may seem, has been a powerful reminder that I have the strength to overcome anything with faith.</p>
+        </div>
+        
+    </div>
+  </div>
+
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By Linus Aurin @2025
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    function showContent(contentId, buttonElement) {
+      // Get all the content elements
+      const contentElements = document.querySelectorAll('.content');
+      contentElements.forEach(content => {
+        content.style.display = 'none';
+      });
+
+      // Show the selected content
+      const selectedContent = document.getElementById(contentId);
+      selectedContent.style.display = 'block';
+
+      // Remove active class from all buttons
+      const buttons = document.querySelectorAll('.button-group button');
+      buttons.forEach(button => {
+        button.classList.remove('active-btn');
+      });
+
+      // Add active class to the clicked button
+      buttonElement.classList.add('active-btn');
+    }
+
+    
+  // Get current page name (e.g. 'skills.html')
+  const currentPage = window.location.pathname.split("/").pop();
+
+  // Get all nav links
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  navLinks.forEach(link => {
+    const linkPage = link.getAttribute("href");
+
+    if (linkPage === currentPage) {
+      link.classList.add("active");
+    }
+  });
+
+
+  </script>
+
+</body>
+
+</html>
